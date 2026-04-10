@@ -1,17 +1,23 @@
-# lab_exe10
+# Flutter Currency Converter (USD ↔ CAD)
 
-A new Flutter project.
+This is a Flutter application with two screens that converts currency between USD and CAD.
 
-## Getting Started
+## Features
 
-This project is a starting point for a Flutter application.
+* Two input fields: USD and CAD
+* Automatic conversion when the user enters a value
+* Conversion summary screen
+* Static exchange rate: 1 USD = 1.35 CAD
+* Basic error handling for empty and invalid input
+* Uses `TextEditingController`
+* Uses `Navigator` and `MaterialPageRoute`
 
-A few resources to get you started if this is your first Flutter project:
+## How to Run
 
-- [Learn Flutter](https://docs.flutter.dev/get-started/learn-flutter)
-- [Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Flutter learning resources](https://docs.flutter.dev/reference/learning-resources)
+1. Open the project in Flutter
+2. Run `flutter pub get`
+3. Start the app on an emulator or device
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Author
+
+Arina Mirzakhani
